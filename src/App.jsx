@@ -12,6 +12,7 @@ function App() {
     <div>
     <div>
       <h1  className='heading'>Todo App</h1> 
+      <h1>Todo hai bhyoiii</h1>
     </div>
     <div className="Input-box">
       <input type="text" className='input-container' onChange={(e)=>{
@@ -24,7 +25,7 @@ function App() {
 
     <div>
       {
-        Listitem.map((item)=>(
+        Listitem.map((item,index)=>(
           <div>{item} </div>
           
         ))
@@ -35,3 +36,5 @@ function App() {
 }
 
 export default App
+
+
